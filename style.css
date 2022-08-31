@@ -1,0 +1,174 @@
+        body{
+            background-color: #f3eae3;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card{
+           
+                width:550px;
+                height:420px;
+                border-radius: 8px;
+                background-color: white;
+                overflow: hidden;
+                display: flex;
+           
+               
+        }
+        
+        .image-desktop{
+            width: 275px;
+            height: 420px;
+                }
+        
+        
+        
+                .text-container{
+                    margin-left:20px;
+                }
+            
+                .perfume{
+                    font-family: 'Rajdhani', sans-serif;
+                    font-weight: bold;
+                    letter-spacing: 1.4px;
+                }
+                .gabrielle{
+                    font-family: 'DM Serif Display', serif;
+                    font-size: 35px;
+                    margin:0px 0px 0px 0px;
+                    line-height: 38px;
+                }
+            .para{
+                font-family: 'Poppins', sans-serif;
+                color: #525252;
+                /* font-weight: bold; */
+                font-size: 14px;
+                line-height: 20px;
+            
+            }
+            .price{
+                font-family: 'Archivo Black', sans-serif;
+                /* color: #1a4031; */
+                color: #418760;
+                letter-spacing: 0px;
+                font-size: 30px;
+            }
+            .price span{
+                color: #525252;
+                text-decoration:line-through;
+                font-size: 15px;
+               margin-left: 10px;
+            
+            }
+            .button{
+                width:220px;
+                height: 38px;
+                border-radius: 5px;
+                background-color:#418760;
+                border: none;
+                color: white;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+            }
+            .mx-1{
+                margin: 0px 8px 0px 8px ;
+            }
+            .button:hover{
+            background-color: #1a4031;
+            cursor: pointer;
+            }
+            
+            
+            @media only screen and (max-width: 588px) {
+                .card{
+           
+                    width:350px;
+                    height:550px;
+                    border-radius: 8px;
+                    background-color: white;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+               
+                   
+            }
+            .image-mobile{
+                width: 350px;
+                height: 200px;
+                    }
+        
+                    .text-container{
+                        margin-left:20px;
+                    }
+        
+                    .perfume{
+                        
+                        letter-spacing: 2.5px;
+                    }
+                    .gabrielle{
+                       display: none;
+                    }
+                    .gabrielle-mobile{
+                        font-family: 'DM Serif Display', serif;
+                        font-size: 25px;
+                        margin:0px 0px 0px 0px;
+                        line-height: 38px;
+                    }
+                .para{
+                    font-family: 'Poppins', sans-serif;
+                    color: #525252;
+                    /* font-weight: bold; */
+                    font-size: 14px;
+                    line-height: 20px;
+                
+                }
+                .price{
+                    font-family: 'Archivo Black', sans-serif;
+                    /* color: #1a4031; */
+                    color: #418760;
+                    letter-spacing: 0px;
+                    font-size: 30px;
+                }
+                .price span{
+                    color: #525252;
+                    text-decoration:line-through;
+                    font-size: 15px;
+                   margin-left: 10px;
+                
+                }
+                .button{
+                    width:300px;
+                    height: 40px;
+                    border-radius: 5px;
+                    background-color:#418760;
+                    border: none;
+                    color: white;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: bold;
+                    /* margin-left:15px ; */
+                }
+                .mx-1{
+                    margin: 0px 8px 0px 8px ;
+                }
+            .image-desktop{
+display: none;
+            }
+         
+            
+            }
+        
+            @media only screen and (min-width: 588px) {
+               
+                .gabrielle-mobile{
+                    display: none;
+                }
+                .image-mobile{
+
+                    display: none;
+                }
+            
+                
+            }
